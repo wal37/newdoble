@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ResearchersNet researcher login for study operations, cohort review, and participant workflow management.">
+  <title>ResearchersNet | Researcher Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-chrome"></div>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand-link" href="./index.html" aria-label="ResearchersNet home">
+        <img class="brand-mark" src="logo-mark.svg" alt="ResearchersNet logo">
+        <div class="brand-copy">
+          <span class="brand-name">ResearchersNet</span>
+          <span class="brand-subtitle">Research Network</span>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="./index.html#model">Model</a>
+        <a href="./index.html#contributors">Contributors</a>
+        <a href="./index.html#studies">Studies</a>
+        <a href="./index.html#trust">Trust</a>
+        <a href="./participant-signup.html">Participant Signup</a>
+        <a href="./researcher-login.html">Researcher Login</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="shell page-hero-shell">
+        <div class="section-heading section-heading-tight">
+          <span class="eyebrow">Researcher Login</span>
+          <h1>Access the study operations workspace.</h1>
+          <p class="section-copy">Review participant pipelines, manage cohorts, route studies, and keep contributor quality and payout visibility under one operational view.</p>
+        </div>
+      </div>
+    </section>
+    <section class="auth-stage">
+      <div class="shell auth-shell">
+        <article class="auth-panel">
+          <h2>Secure workspace login</h2>
+          <p>Use your team credentials to access applicant review, study assignment, cohort tracking, and participant records.</p>
+          <form class="auth-form" action="#" method="post">
+            <label><span>Work email</span><input type="email" name="email" placeholder="name@company.com" required></label>
+            <label><span>Password</span><input type="password" name="password" placeholder="Enter password" required></label>
+            <div class="auth-grid-two">
+              <label><span>Workspace</span><input type="text" name="workspace" placeholder="Team or organization name" required></label>
+              <label>
+                <span>Role</span>
+                <select name="role" required>
+                  <option value="">Select role</option>
+                  <option>Research lead</option>
+                  <option>Operations manager</option>
+                  <option>Study coordinator</option>
+                  <option>Evaluator program owner</option>
+                </select>
+              </label>
+            </div>
+            <button class="button button-solid" type="submit">Access workspace</button>
+          </form>
+        </article>
+        <aside class="auth-aside">
+          <h2>Workspace capabilities</h2>
+          <p>Research teams use ResearchersNet to maintain cleaner participant operations across recurring programs and enterprise studies.</p>
+          <ul class="auth-list">
+            <li>Applicant review and screener queues</li>
+            <li>Cohort assignment and study routing</li>
+            <li>Participant notes, history, and quality flags</li>
+            <li>Payout readiness and operational visibility</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+      <div class="footer-brand">
+        <img class="brand-mark" src="logo-mark.svg" alt="ResearchersNet logo">
+        <div>
+          <div class="footer-brand-text">
+            <strong>ResearchersNet</strong>
+            <p>Research participation infrastructure for studies, evaluators, contributors, and operations teams.</p>
+          </div>
+          <form class="footer-newsletter" action="#" method="post">
+            <label for="researcher-footer-newsletter-email">Newsletter</label>
+            <div class="footer-newsletter-row">
+              <input id="researcher-footer-newsletter-email" type="email" name="footer-newsletter-email" placeholder="Email address" required>
+              <button class="button button-solid" type="submit">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html#model">Model</a>
+        <a href="./index.html#contributors">Contributors</a>
+        <a href="./index.html#studies">Studies</a>
+        <a href="./index.html#trust">Trust</a>
+        <a href="./participant-signup.html">Participant Signup</a>
+        <a href="./researcher-login.html">Researcher Login</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="./contact.html">Contact</a>
+        <div class="footer-contact-meta">
+          <a href="mailto:contact@ResearchersNet.net">contact@researchersnet.online</a>
+        
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
